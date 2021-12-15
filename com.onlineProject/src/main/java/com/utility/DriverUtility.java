@@ -15,9 +15,15 @@ public class DriverUtility extends BaseClass {
 
 	}
 
-	public void elementToBeClickable(WebElement element) {
+	public static void elementToBeClickable(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
+	
+	public static void waitForTitleVisible(String string) {
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.titleContains(string));
 	}
 
 	public void switchToFrameById(String id) {

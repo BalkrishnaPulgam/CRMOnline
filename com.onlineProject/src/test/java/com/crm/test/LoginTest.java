@@ -11,6 +11,7 @@ import org.testng.Assert;
 import com.base.BaseClass;
 import com.crm.pages.LoginPage;
 import com.crm.pages.ViewProfilePage;
+import com.utility.DriverUtility;
 
 public class LoginTest extends BaseClass{
 	
@@ -31,21 +32,20 @@ public class LoginTest extends BaseClass{
 		driver.close();
 	}
 	
-/*
-	@Test(priority = 1)
+@Test(priority = 1)
 	public void ValidateTitle() {
 		String title = lp.verifyBrowserTitle();
 		Assert.assertEquals(title, "CRM Tech - Login");
 
 	}
 	
-	*/
+	
 	@Test(priority = 2)
 	public void verifyValidLogin() {
 		vp = lp.verifyValidLogin(driver);
 		
-		WebDriverWait wait=new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.titleContains("CRM Tech - View Profile"));
+	//	DriverUtility.waitForTitleVisible("CRM Tech - View Profile");
+		
 		Assert.assertEquals(driver.getTitle(), "CRM Tech - View Profile");
 	}
 
