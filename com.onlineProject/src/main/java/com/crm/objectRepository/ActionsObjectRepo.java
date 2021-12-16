@@ -39,7 +39,7 @@ public class ActionsObjectRepo {
 	@FindBy(xpath = "//tr//td[11]")
 	public WebElement assignedTo;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "yjtdyutdyu")
 	public WebElement das5;
 	
 	
@@ -50,6 +50,6 @@ public class ActionsObjectRepo {
 	
 	
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "dyutyu")
 	public List<WebElement> d7;
 }
