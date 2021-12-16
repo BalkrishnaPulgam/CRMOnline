@@ -32,4 +32,21 @@ public class ActionsPageTest extends BaseClass {
 	public void verfiyTitle(){
 		
 	}
+	@Test
+	public void verfiyTitle1(){
+		
+	}
+	@Test
+	public void verfiyTitle2(){
+		
+	}
+	@Test
+	public void verfiyTitle4(){
+		
+	}
+	@Test
+	public void verfiyTitle5(){
+		
+	}
+	
 }
