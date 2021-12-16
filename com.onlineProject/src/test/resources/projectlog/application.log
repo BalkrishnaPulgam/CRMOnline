@@ -1,40 +1,23 @@
-2021-12-15 22:15:53,324  INFO [main] BaseClass:38 - reading a value for a property: browser
-2021-12-15 22:15:53,326  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:15:53,326  INFO [main] BaseClass:54 - property value found in the file with key as: browser and value is: chrome
-2021-12-15 22:15:53,327  INFO [main] BaseClass:38 - reading a value for a property: chromeDriverfilePath
-2021-12-15 22:15:53,327  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:15:53,327  INFO [main] BaseClass:54 - property value found in the file with key as: chromeDriverfilePath and value is: Drivers/chromedriver.exe
-2021-12-15 22:15:55,241  INFO [main] BaseClass:74 - Chrome Browser initialized...
-2021-12-15 22:15:55,241  INFO [main] BaseClass:63 - Launching an Application..
-2021-12-15 22:15:55,241  INFO [main] BaseClass:38 - reading a value for a property: url
-2021-12-15 22:15:55,242  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:15:55,242  INFO [main] BaseClass:54 - property value found in the file with key as: url and value is: https://ingecnotechnologies.com/Other/CRM/index.php/site/login
-2021-12-15 22:16:05,984  INFO [main] BaseClass:38 - reading a value for a property: pageload
-2021-12-15 22:16:05,985  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:05,986  INFO [main] BaseClass:54 - property value found in the file with key as: pageload and value is: 30
-2021-12-15 22:16:05,995  INFO [main] BaseClass:38 - reading a value for a property: pageload
-2021-12-15 22:16:05,996  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:05,997  INFO [main] BaseClass:54 - property value found in the file with key as: pageload and value is: 30
-2021-12-15 22:16:06,011  INFO [main] BaseClass:38 - reading a value for a property: browser
-2021-12-15 22:16:06,011  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:06,011  INFO [main] BaseClass:54 - property value found in the file with key as: browser and value is: chrome
-2021-12-15 22:16:06,191  INFO [main] BaseClass:38 - reading a value for a property: browser
-2021-12-15 22:16:06,191  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:06,191  INFO [main] BaseClass:54 - property value found in the file with key as: browser and value is: chrome
-2021-12-15 22:16:06,192  INFO [main] BaseClass:38 - reading a value for a property: chromeDriverfilePath
-2021-12-15 22:16:06,192  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:06,192  INFO [main] BaseClass:54 - property value found in the file with key as: chromeDriverfilePath and value is: Drivers/chromedriver.exe
-2021-12-15 22:16:07,512  INFO [main] BaseClass:74 - Chrome Browser initialized...
-2021-12-15 22:16:07,512  INFO [main] BaseClass:63 - Launching an Application..
-2021-12-15 22:16:07,512  INFO [main] BaseClass:38 - reading a value for a property: url
-2021-12-15 22:16:07,513  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:07,513  INFO [main] BaseClass:54 - property value found in the file with key as: url and value is: https://ingecnotechnologies.com/Other/CRM/index.php/site/login
-2021-12-15 22:16:11,569  INFO [main] BaseClass:38 - reading a value for a property: pageload
-2021-12-15 22:16:11,569  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:11,570  INFO [main] BaseClass:54 - property value found in the file with key as: pageload and value is: 30
-2021-12-15 22:16:11,578  INFO [main] BaseClass:38 - reading a value for a property: pageload
-2021-12-15 22:16:11,578  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:11,578  INFO [main] BaseClass:54 - property value found in the file with key as: pageload and value is: 30
-2021-12-15 22:16:11,593  INFO [main] BaseClass:38 - reading a value for a property: browser
-2021-12-15 22:16:11,593  INFO [main] BaseClass:42 - initializing property file
-2021-12-15 22:16:11,593  INFO [main] BaseClass:54 - property value found in the file with key as: browser and value is: chrome
+2021-12-16 12:24:12,408  INFO [main] BaseClass:38 - reading a value for a property: browser
+2021-12-16 12:24:12,425  INFO [main] BaseClass:42 - initializing property file
+2021-12-16 12:24:12,425  INFO [main] BaseClass:54 - property value found in the file with key as: browser and value is: chrome
+2021-12-16 12:24:12,425  INFO [main] BaseClass:38 - reading a value for a property: chromeDriverfilePath
+2021-12-16 12:24:12,425  INFO [main] BaseClass:42 - initializing property file
+2021-12-16 12:24:12,425  INFO [main] BaseClass:54 - property value found in the file with key as: chromeDriverfilePath and value is: Drivers/chromedriver.exe
+2021-12-16 12:24:14,301  INFO [main] BaseClass:74 - Chrome Browser initialized...
+2021-12-16 12:24:14,301  INFO [main] BaseClass:63 - Launching an Application..
+2021-12-16 12:24:14,302  INFO [main] BaseClass:38 - reading a value for a property: url
+2021-12-16 12:24:14,302  INFO [main] BaseClass:42 - initializing property file
+2021-12-16 12:24:14,302  INFO [main] BaseClass:54 - property value found in the file with key as: url and value is: https://ingecnotechnologies.com/Other/CRM/index.php/site/login
+2021-12-16 12:24:16,018  INFO [main] BaseClass:38 - reading a value for a property: pageload
+2021-12-16 12:24:16,018  INFO [main] BaseClass:42 - initializing property file
+2021-12-16 12:24:16,028  INFO [main] BaseClass:54 - property value found in the file with key as: pageload and value is: 30
+2021-12-16 12:24:16,046  INFO [main] BaseClass:38 - reading a value for a property: pageload
+2021-12-16 12:24:16,046  INFO [main] BaseClass:42 - initializing property file
+2021-12-16 12:24:16,046  INFO [main] BaseClass:54 - property value found in the file with key as: pageload and value is: 30
+2021-12-16 12:24:16,061  INFO [main] BaseClass:38 - reading a value for a property: browser
+2021-12-16 12:24:16,061  INFO [main] BaseClass:42 - initializing property file
+2021-12-16 12:24:16,061  INFO [main] BaseClass:54 - property value found in the file with key as: browser and value is: chrome
+2021-12-16 12:24:16,093  INFO [main] BaseClass:22 - Driver is initialised
+2021-12-16 12:24:16,101  INFO [main] BaseClass:23 - Login Page is Displayed
+2021-12-16 12:24:36,436  INFO [main] BaseClass:31 - Driver closed

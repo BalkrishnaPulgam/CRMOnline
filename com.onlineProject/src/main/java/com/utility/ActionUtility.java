@@ -29,7 +29,7 @@ public class ActionUtility extends BaseClass {
 		act.dragAndDrop(source, target).perform();
 	}
 
-	public void moveAndClickElement(WebElement element) {
+	public static void moveAndClickElement(WebElement element) {
 		Actions act = new Actions(driver);
 		act.moveToElement(element).click().build().perform();
 

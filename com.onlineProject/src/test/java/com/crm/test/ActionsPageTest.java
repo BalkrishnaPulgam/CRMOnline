@@ -1,6 +1,7 @@
 package com.crm.test;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -20,6 +21,7 @@ public class ActionsPageTest extends BaseClass {
 		ap = new ActionsPage(driver);
 		log.info("Driver is initialised");
 		log.info("Login Page is Displayed");
+		ap=loadLoginPage().verifyValidLogin(driver).navigateToActionsPage(driver);
 		reportInit();
 	}
 
@@ -28,25 +30,18 @@ public class ActionsPageTest extends BaseClass {
 		driver.close();
 		log.info("Driver closed");
 	}
-	@Test
+	@Test(priority=1)
 	public void verfiyTitle(){
-		
+		Assert.assertTrue(ap.verifyTitle());
 	}
-	@Test
-	public void verfiyTitle1(){
-		
+	@Test(priority=2)
+	public void verfiyCountOfSA(){
+		Assert.assertTrue(ap.countAssignedToBySA());
 	}
-	@Test
-	public void verfiyTitle2(){
-		
+	@Test(priority=3)
+	public void verfiyCompltedAction(){
+		Assert.assertTrue(ap.countCompletedAction());
 	}
-	@Test
-	public void verfiyTitle4(){
-		
-	}
-	@Test
-	public void verfiyTitle5(){
-		
-	}
+	
 	
 }

@@ -14,7 +14,7 @@ public class SelectUtility {
 
 	}
 
-	public void selectbyText(String text, WebElement element) {
+	public static void selectbyText(String text, WebElement element) {
 		Select sel = new Select(element);
 		sel.selectByVisibleText(text);
 	}
@@ -54,5 +54,38 @@ public class SelectUtility {
 		}
 		return valueList;
 	}
+	public static void selectRadioByValue(List<WebElement> radioList, String text) {
 
+		for (WebElement list : radioList) {
+			String value = list.getAttribute("value");
+			if (value.equals(text)) {
+				list.click();
+				break;
+			}
+		}
+	}
+
+	public static void selectCheckBoxByValue(List<WebElement> checkBoxes, List<String> values) {
+		for (String value : values) {
+			for (WebElement checkBox : checkBoxes) {
+				if (checkBox.getAttribute("value").equals(value)) {
+					checkBox.click();
+					break;
+				}
+			}
+		}
+	}
+	public static void selectMultipleValueByText(WebElement element, List<String> values) {
+		Select sele = new Select(element);
+		if (sele.isMultiple()) {
+			List<WebElement> options = sele.getOptions();
+			for (String value : values) {
+				for (WebElement option : options) {
+					if (option.getText().equals(value)) {
+						sele.selectByVisibleText(value);
+					}
+				}
+			}
+		}
+	}
 }

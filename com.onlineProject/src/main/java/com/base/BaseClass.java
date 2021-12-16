@@ -117,5 +117,6 @@ public class BaseClass {
 		log.info("screenshot saved in the project directory");
 		return path;
 	}
+	
 
 }
