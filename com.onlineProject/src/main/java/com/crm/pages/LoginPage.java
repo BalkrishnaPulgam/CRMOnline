@@ -27,6 +27,13 @@ public class LoginPage extends LoginObjectRepo {
 		ActionUtility.typeIn(userEmail, "admin");
 		ActionUtility.typeIn(userPass, "pass");
 		ActionUtility.click(btn);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		ActionUtility.click(btn);
 		return new ViewProfilePage(driver);
 
 	}
